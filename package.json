@@ -1,14 +1,12 @@
 {
   "name": "rnparentmodule",
-  "version": "1.0.0",
+  "version": "1.1.1",
+  "private": true,
   "description": "",
   "main": "index.js",
+  "workspaces": ["packages/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "peerDependencies": {
-    "react-native-test1": "file:packages/project1",
-    "react-native-test2": "file:packages/project2"
   },
   "author": "",
   "license": "ISC"
