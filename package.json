@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react-native-test1": "file:project1",
-    "react-native-test2": "file:project2"
+    "react-native-test1": "./project1",
+    "react-native-test2": "./project2"
   },
   "author": "",
   "license": "ISC"
