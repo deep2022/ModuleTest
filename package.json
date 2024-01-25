@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react-native-test1": "file:packages/project1",
     "react-native-test2": "file:packages/project2"
   },
