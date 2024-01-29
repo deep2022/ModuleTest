@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fc-package-1",
+  "name": "fc-package-1",
   "version": "0.1.0",
   "description": "none",
   "main": "lib/commonjs/index",
@@ -26,11 +26,9 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-fc-package-1-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
     "release": "release-it"
   },
@@ -39,19 +37,6 @@
     "ios",
     "android"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deep2022/react-native-fc-package-1.git"
-  },
-  "author": "Deepak Chander Joshi <deepak.joshi@freecharge.com> (https://github.com/deep2022)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/deep2022/react-native-fc-package-1/issues"
-  },
-  "homepage": "https://github.com/deep2022/react-native-fc-package-1#readme",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
