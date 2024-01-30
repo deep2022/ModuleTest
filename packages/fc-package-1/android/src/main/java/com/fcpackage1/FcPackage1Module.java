@@ -48,7 +48,6 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.WritableMap;
-import com.google.android.material.snackbar.Snackbar;
 import com.facebook.react.module.annotations.ReactModule;
 
 @ReactModule(name = FcPackage1Module.NAME)
