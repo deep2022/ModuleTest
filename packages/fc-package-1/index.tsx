@@ -17,6 +17,6 @@ const FcPackage1 = NativeModules.FcPackage1
       }
     );
 
-export function openUrl(a: number): Promise<number> {
+export function openUrl(a: string): Promise<any> {
   return FcPackage1.openUrl(a);
 }
