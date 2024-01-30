@@ -1,5 +1,5 @@
 {
-  "name": "fc-package-1",
+  "name": "@fcrn/fc-package-1",
   "version": "0.1.0",
   "description": "none",
   "main": "lib/commonjs/index",

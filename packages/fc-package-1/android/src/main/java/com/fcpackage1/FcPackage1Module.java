@@ -55,6 +55,7 @@ import com.facebook.react.module.annotations.ReactModule;
 public class FcPackage1Module extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
+    public static final String NAME = "FcPackage1";
     private final String BROWSER_SAMSUNG = "com.sec.android.app.sbrowser";
     private final String BROWSER_CHROME = "com.android.chrome";
 
@@ -186,17 +187,7 @@ public class FcPackage1Module extends ReactContextBaseJavaModule {
     private void showSnackBar(String message, String packageName) {
         Activity activity = reactContext.getCurrentActivity();
         if (activity != null) {
-            Snackbar snackbar =
-                    Snackbar.make(
-                            activity.findViewById(android.R.id.content),
-                            message,
-                            Snackbar.LENGTH_INDEFINITE);
-
-            snackbar.setAction("Update Now", view -> {
-                goToPlayStore(packageName);
-            });
-            snackbar.setActionTextColor(activity.getResources().getColor(R.color.freecharge_orange));
-            snackbar.show();
+          goToPlayStore(packageName);
         }
     }
 

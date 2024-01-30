@@ -17,6 +17,6 @@ const FcPackage1 = NativeModules.FcPackage1
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return FcPackage1.multiply(a, b);
+export function openUrl(a: number): Promise<number> {
+  return FcPackage1.openUrl(a);
 }
